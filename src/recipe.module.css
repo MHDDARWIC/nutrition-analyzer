@@ -1,0 +1,22 @@
+.gridContainer {
+    display: grid;
+    grid-template-columns: 1.4fr 0.8fr 0.8fr;
+    grid-template-rows: 0.2fr 2.6fr 0.2fr;
+    gap: 1px 1px;
+    grid-template-areas: ". . ." "image desc vita" ". . .";
+    justify-items: center;
+    background-color: rgba(36, 172, 31, 0.466);
+  }
+  
+  .image {
+       grid-area: image;
+     }
+  
+  .desc { 
+      grid-area: desc;
+     }
+  
+  .vita { 
+      grid-area: vita;
+  }
+

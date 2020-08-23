@@ -1,0 +1,59 @@
+body{
+  background-image: url('./assets/geometric.png');
+  font-family: 'Indie Flower', cursive;
+}
+
+.logoImg{
+  height: 120px;
+  position: relative;
+  left: 47%;
+  border-radius: 2px ;
+}
+
+.pStyle{
+  font-size:23px ;
+  text-align: center;
+  color: rgb(56, 55, 55);
+}
+
+.searchBar{
+  width: 580px;
+  height: 40px;
+  position: relative;
+  margin-top: 2%;
+  left: 34%;
+  border: 2px grey solid;
+  color: grey;
+  font-size: large;
+}
+
+.searchButton{
+  background-color: rgb(23, 182, 9);
+  width: 8%;
+  height: 40px;
+  color: white;
+  font-size: 18px;
+  position: relative;
+  left: 46%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: ;
+  grid-template-rows: 1.5fr 2.3fr;
+  gap: 1px 1px;
+  grid-template-areas: "." "results";
+  justify-items: center;
+}
+
+.results {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 30px 30px;
+  grid-template-areas: ". .";
+  grid-area: results;
+}
